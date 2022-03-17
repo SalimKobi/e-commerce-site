@@ -114,7 +114,7 @@ import body from "./components/body.vue";
         </div>
         <div class="pt-[30px] sm:mt-[170px]">
           <p class="text-[16px] text-[#FB2E86]">
-            best furniture for your castle
+            Best furniture for your castle
           </p>
           <p class="text-[25px] mt-3px sm:text-[53px] sm:mt-[12px]">
             New Furniture Collection Trend in 2022
@@ -212,13 +212,38 @@ import body from "./components/body.vue";
                 src="./assets/img/image_3.png"
                 alt=""
               />
+              <ul class="flex items-center absolute -mt-[15rem]">
+                <li><img src="./assets/img/Group 28.svg" alt="" /></li>
+                <li class="ml-[10px]">
+                  <img src="./assets/img/uil_heart-alt.svg" alt="" />
+                </li>
+                <li class="ml-[16px]">
+                  <img src="./assets/img/uil_search-plus.svg" alt="" />
+                </li>
+              </ul>
+              <button
+                class="
+                  absolute
+                  text-white
+                  rounded
+                  bg-[#08D15F]
+                  -mt-[45px]
+                  py-[8px]
+                  px-[13px]
+                  text-[12px]
+                  ml-[8rem]
+                  sm:ml-[6rem]
+                "
+              >
+                View Details
+              </button>
             </div>
-            <div class="text-center">
-              <div class="mt-[12px] text-[#FB2E86]">Cantilever chair</div>
+            <div class="text-center bg-[#2F1AC4] text-white">
+              <div class="pt-[12px]">Cantilever chair</div>
               <div class="flex justify-center space-x-[4px] mt-[12px]">
                 <img src="./assets/img/Rectangle 93.svg" alt="" />
                 <img src="./assets/img/Rectangle 94.svg" alt="" />
-                <img src="./assets/img/Rectangle 95.svg" alt="" />
+                <img src="./assets/img/Rectangle_95a.svg" alt="" />
               </div>
               <div class="mt-[12px]">Code - Y523201</div>
               <div class="mt-[12px] pb-[30px]">$42.00</div>
@@ -240,7 +265,7 @@ import body from "./components/body.vue";
               />
             </div>
             <div class="text-center">
-              <div class="mt-[12px] text-[#FB2E86]">Cantilever chair</div>
+              <div class="pt-[12px] text-[#FB2E86]">Cantilever chair</div>
               <div class="flex justify-center space-x-[4px] mt-[12px]">
                 <img src="./assets/img/Rectangle 93.svg" alt="" />
                 <img src="./assets/img/Rectangle 94.svg" alt="" />
@@ -266,7 +291,7 @@ import body from "./components/body.vue";
               />
             </div>
             <div class="text-center">
-              <div class="mt-[12px] text-[#FB2E86]">Cantilever chair</div>
+              <div class="pt-[12px] text-[#FB2E86]">Cantilever chair</div>
               <div class="flex justify-center space-x-[4px] mt-[12px]">
                 <img src="./assets/img/Rectangle 93.svg" alt="" />
                 <img src="./assets/img/Rectangle 94.svg" alt="" />
@@ -278,6 +303,23 @@ import body from "./components/body.vue";
           </div>
         </div>
       </div>
+      <div class="flex justify-center space-x-[7px] pb-[71px]">
+        <img src="./assets/img/Rectangle_104.svg" alt="" />
+        <img src="./assets/img/Rectangle_105.svg" alt="" />
+        <img src="./assets/img/Rectangle_105.svg" alt="" />
+        <img src="./assets/img/Rectangle_105.svg" alt="" />
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container mx-auto">
+      <p class="text-center text-[20px] sm:text-[42px]">Latest Products</p>
+      <ul class="flex justify-center mt-[19px] space-x-[58px]">
+        <li class="text-[#FB2E86] underline underline-offset-4">New Arrival</li>
+        <li>Best Seller</li>
+        <li>Featured</li>
+        <li>Special offer</li>
+      </ul>
     </div>
   </section>
 </template>

@@ -1,4 +1,4 @@
-<script setup>
+<script>
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
 import body from "./components/body.vue";
@@ -148,7 +148,7 @@ import body from "./components/body.vue";
     </div>
   </section>
   <section class="">
-    <div class="px-[30px] sm:continer sm:mx-auto">
+    <div class="px-[30px] sm:container sm:mx-auto">
       <div
         class="
           text-center text-[20px]
@@ -583,8 +583,8 @@ import body from "./components/body.vue";
 
   <!-- latest trending products -->
   <section class="mt-20 bg-[#F1F0FF]">
-    <div class="container sm:flex mx-auto px-[30px]">
-      <div><img src="./assets/img/Group 153.png" alt="" /></div>
+    <div class="container sm:flex sm:justify-center mx-auto px-[30px]">
+      <div class=""><img src="./assets/img/Group 153.png" alt="" /></div>
       <div class="">
         <p class="text-[35px] sm:mt-[82px] text-[#151875]">
           Unique Features Of leatest & Trending Poducts
@@ -616,13 +616,187 @@ import body from "./components/body.vue";
       </div>
     </div>
   </section>
-  <section>
-    <div>
-      <div></div>
-      <div></div>
+
+  <!-- Discount section -->
+  <section class="mt-20">
+    <div class="justify-center">
+      <div class="text-center text-[42px]">Discount Item</div>
+      <ul class="flex justify-center space-x-[30px]">
+        <li class="text-[#FB2E86] underline underline-offset-2">Wood Chair</li>
+        <li>Plastic Chair</li>
+        <li>Sofa Collection</li>
+      </ul>
+    </div>
+    <div class="container sm:flex mx-auto px-[100px]">
+      <div class="">
+        <div class="sm:flex sm:justify-center items-center container mx-auto">
+          <div class="px-[px]">
+            <p class="text-[25px] text-[#151875]">
+              20% Discount of All Products
+            </p>
+            <p class="text-[#FB2E86]">Eams Sofa Compact</p>
+            <p class="text-[#B7BACB] mt-[28px] mb-[28px]">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Cupiditate, saepe animi! Optio provident ad id.
+            </p>
+            <div class="text-[#B7BACB]">
+              <div class="flex flex-wrap">
+                <div class="flex space-x-4 mb-[10px]">
+                  <div class="flex items-center space-x-[5px]">
+                    <div><img src="./assets/img/Vector.svg" alt="" /></div>
+                    <div>Material expose like metals</div>
+                  </div>
+                  <div class="flex items-center space-x-[5px]">
+                    <div><img src="./assets/img/Vector.svg" alt="" /></div>
+                    <div>Material expose like metals</div>
+                  </div>
+                </div>
+                <div class="flex space-x-4">
+                  <div class="flex items-center space-x-[5px]">
+                    <div><img src="./assets/img/Vector.svg" alt="" /></div>
+                    <div>Material expose like metals</div>
+                  </div>
+                  <div class="flex items-center space-x-[5px]">
+                    <div><img src="./assets/img/Vector.svg" alt="" /></div>
+                    <div>Material expose like metals</div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="bg-[#FB2E86] text-white py-[14px] px-[24px] mt-[37px]"
+              >
+                Shop Now
+              </button>
+            </div>
+          </div>
+          <div class="">
+            <img src="./assets/img/Group 154.png" alt="" />
+          </div>
+        </div>
+      </div>
     </div>
   </section>
+  <!-- latest blog  -->
+  <section class="py-5 mx-auto">
+    <div class="">
+      <div class="mb-[80px]">
+        <p class="text-center text-[42px]">Latest Blog</p>
+      </div>
+      <div
+        class="
+          grid grid-cols-1
+          md:grid-cols-2
+          lg:grid-cols-3
+          gap-10
+          md:max-w-[70vw]
+          mx-auto
+        "
+      >
+        <div
+          class="
+            shadow-[0px_0px_25px_rgba(0,_0,_0,_0.1)]
+            basis-1
+            md:basis-1/2
+            lg:basis-1/4
+            rounded-xl
+          "
+        >
+          <img src="./assets/img/Frame 3.png" alt="" />
+          <div class="text-[14px] p-5">
+            <div class="flex justify-between pb-[31px]">
+              <div class="flex space-x-2">
+                <img class="" src="./assets/img/Vector_pen.svg" alt="" />
+                <p class="text-[#151875]">Saber Ali</p>
+              </div>
+              <div class="flex space-x-2">
+                <img class="" src="./assets/img/uil_calendar-alt.svg" alt="" />
+                <p class="text-[#151875]">21 August,2020</p>
+              </div>
+            </div>
+            <p class="pb-[17px] text-[#151875] text-[18px]">
+              Top essential trends in 2021
+            </p>
+            <p class="pb-[14px] text-[#72718F] text-[16px]">
+              More off this less hello samlande lied much over tightly circa
+              horse taped mightly
+            </p>
+            <a class="underline underline-offset-2 text-[#151875]" href=""
+              >Read More</a
+            >
+          </div>
+        </div>
+        <div
+          class="
+            shadow-[0px_0px_25px_rgba(0,_0,_0,_0.1)]
+            basis-1
+            md:basis-1/2
+            lg:basis-1/4
+            rounded-xl
+          "
+        >
+          <img src="./assets/img/Frame 3.png" alt="" />
+          <div class="text-[14px] p-5">
+            <div class="flex justify-between pb-[31px]">
+              <div class="flex space-x-2">
+                <img class="" src="./assets/img/Vector_pen.svg" alt="" />
+                <p class="text-[#151875]">Saber Ali</p>
+              </div>
+              <div class="flex space-x-2">
+                <img class="" src="./assets/img/uil_calendar-alt.svg" alt="" />
+                <p class="text-[#151875]">21 August,2020</p>
+              </div>
+            </div>
+            <p class="pb-[17px] text-[#151875] text-[18px]">
+              Top essential trends in 2021
+            </p>
+            <p class="pb-[14px] text-[#72718F] text-[16px]">
+              More off this less hello samlande lied much over tightly circa
+              horse taped mightly
+            </p>
+            <a class="underline underline-offset-2 text-[#151875]" href=""
+              >Read More</a
+            >
+          </div>
+        </div>
+        <div
+          class="
+            shadow-[0px_0px_25px_rgba(0,_0,_0,_0.1)]
+            basis-1
+            md:basis-1/2
+            lg:basis-1/4
+            rounded-xl
+          "
+        >
+          <img src="./assets/img/Frame 3.png" alt="" />
+          <div class="text-[14px] p-5">
+            <div class="flex justify-between pb-[31px]">
+              <div class="flex space-x-2">
+                <img class="" src="./assets/img/Vector_pen.svg" alt="" />
+                <p class="text-[#151875]">Saber Ali</p>
+              </div>
+              <div class="flex space-x-2">
+                <img class="" src="./assets/img/uil_calendar-alt.svg" alt="" />
+                <p class="text-[#151875]">21 August,2020</p>
+              </div>
+            </div>
+            <p class="pb-[17px] text-[#151875] text-[18px]">
+              Top essential trends in 2021
+            </p>
+            <p class="pb-[14px] text-[#72718F] text-[16px]">
+              More off this less hello samlande lied much over tightly circa
+              horse taped mightly
+            </p>
+            <a class="underline underline-offset-2 text-[#151875]" href=""
+              >Read More</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
 </template>
+
 <style>
 /* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;x

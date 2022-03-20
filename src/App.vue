@@ -704,7 +704,7 @@ import body from "./components/body.vue";
           <img src="./assets/img/Frame 3.png" alt="" />
           <div class="text-[14px] p-5">
             <div class="flex justify-between pb-[31px]">
-              <div class="flex space-x-2">
+              <div class="flex space-x-1">
                 <img class="" src="./assets/img/Vector_pen.svg" alt="" />
                 <p class="text-[#151875]">Saber Ali</p>
               </div>
@@ -734,10 +734,10 @@ import body from "./components/body.vue";
             rounded-xl
           "
         >
-          <img src="./assets/img/Frame 3.png" alt="" />
+          <img src="./assets/img/Frame 4.png" alt="" />
           <div class="text-[14px] p-5">
             <div class="flex justify-between pb-[31px]">
-              <div class="flex space-x-2">
+              <div class="flex space-x-1">
                 <img class="" src="./assets/img/Vector_pen.svg" alt="" />
                 <p class="text-[#151875]">Saber Ali</p>
               </div>
@@ -767,10 +767,10 @@ import body from "./components/body.vue";
             rounded-xl
           "
         >
-          <img src="./assets/img/Frame 3.png" alt="" />
+          <img src="./assets/img/Frame.png" alt="" />
           <div class="text-[14px] p-5">
             <div class="flex justify-between pb-[31px]">
-              <div class="flex space-x-2">
+              <div class="flex space-x-1">
                 <img class="" src="./assets/img/Vector_pen.svg" alt="" />
                 <p class="text-[#151875]">Saber Ali</p>
               </div>
@@ -794,7 +794,52 @@ import body from "./components/body.vue";
       </div>
     </div>
   </section>
-  
+  <footer>
+    <div class="flex justify-around container mx-auto">
+      <div>
+        <ul>
+          <h2 class="font-bold">Catagories</h2>
+          <li>Laptops & Computers</li>
+          <li>Cameras & Photography</li>
+          <li>Smart Phones & Tablets</li>
+          <li>Video Games & Consoles</li>
+          <li>Waterproof Headphones</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <h2 class="font-bold">Catagories</h2>
+          <li>Laptops & Computers</li>
+          <li>Cameras & Photography</li>
+          <li>Smart Phones & Tablets</li>
+          <li>Video Games & Consoles</li>
+          <li>Waterproof Headphones</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <h2 class="font-bold">Catagories</h2>
+          <li>Laptops & Computers</li>
+          <li>Cameras & Photography</li>
+          <li>Smart Phones & Tablets</li>
+          <li>Video Games & Consoles</li>
+          <li>Waterproof Headphones</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <h2 class="font-bold">Catagories</h2>
+          <li>Laptops & Computers</li>
+          <li>Cameras & Photography</li>
+          <li>Smart Phones & Tablets</li>
+          <li>Video Games & Consoles</li>
+          <li>Waterproof Headphones</li>
+        </ul>
+      </div>
+    </div>
+    <div></div>
+  </footer>
+
 </template>
 
 <style>

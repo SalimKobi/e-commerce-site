@@ -317,7 +317,7 @@ import body from "./components/body.vue";
   <!-- Latest products section  -->
   <section class="px-[30px]">
     <div class="px-[30px] container mx-auto">
-      <p class="text-center text-[20px] sm:text-[42px]">Latest Products</p>
+      <p class="text-center text-[30px] sm:text-[42px]">Latest Products</p>
       <ul
         class="
           flex flex-wrap
@@ -332,7 +332,7 @@ import body from "./components/body.vue";
         <li class="text-[#FB2E86] underline underline-offset-4">New Arrival</li>
         <li>Best Seller</li>
         <li>Featured</li>
-        <li>Special offer</li>
+        <li class="hidden sm:block">Special offer</li>
       </ul>
     </div>
     <div></div>
@@ -583,10 +583,10 @@ import body from "./components/body.vue";
 
   <!-- latest trending products -->
   <section class="mt-20 bg-[#F1F0FF]">
-    <div class="container sm:flex sm:justify-center mx-auto px-[30px]">
+    <div class="container sm:flex sm:justify-center mx-auto px-[30px] py-[35px]">
       <div class=""><img src="./assets/img/Group 153.png" alt="" /></div>
       <div class="">
-        <p class="text-[35px] sm:mt-[82px] text-[#151875]">
+        <p class="text-[25px] sm:mt-[82px] text-[#151875]">
           Unique Features Of leatest & Trending Poducts
         </p>
         <div class="flex pt-[29px] pb-[13px] space-x-3">
@@ -620,17 +620,17 @@ import body from "./components/body.vue";
   <!-- Discount section -->
   <section class="mt-20">
     <div class="justify-center">
-      <div class="text-center text-[42px]">Discount Item</div>
-      <ul class="flex justify-center space-x-[30px]">
+      <div class="text-center text-[28px] sm:text-[42px]">Discount Item</div>
+      <ul class="flex justify-center space-x-[30px] sm:pt-[0px] pt-[10px]">
         <li class="text-[#FB2E86] underline underline-offset-2">Wood Chair</li>
         <li>Plastic Chair</li>
         <li>Sofa Collection</li>
       </ul>
     </div>
-    <div class="container sm:flex mx-auto px-[100px]">
+    <div class="container sm:flex mx-auto sm:px-[100px]">
       <div class="">
         <div class="sm:flex sm:justify-center items-center container mx-auto">
-          <div class="px-[px]">
+          <div class="px-[30px] pt-[20px] sm:px-[0px]">
             <p class="text-[25px] text-[#151875]">
               20% Discount of All Products
             </p>
@@ -640,8 +640,8 @@ import body from "./components/body.vue";
               Cupiditate, saepe animi! Optio provident ad id.
             </p>
             <div class="text-[#B7BACB]">
-              <div class="flex flex-wrap">
-                <div class="flex space-x-4 mb-[10px]">
+              <div class="sm:flex flex-wrap">
+                <div class="sm:flex sm:space-x-4 mb-[10px]">
                   <div class="flex items-center space-x-[5px]">
                     <div><img src="./assets/img/Vector.svg" alt="" /></div>
                     <div>Material expose like metals</div>
@@ -651,7 +651,7 @@ import body from "./components/body.vue";
                     <div>Material expose like metals</div>
                   </div>
                 </div>
-                <div class="flex space-x-4">
+                <div class="sm:flex sm:space-x-4 mb-[10px]">
                   <div class="flex items-center space-x-[5px]">
                     <div><img src="./assets/img/Vector.svg" alt="" /></div>
                     <div>Material expose like metals</div>
@@ -663,7 +663,7 @@ import body from "./components/body.vue";
                 </div>
               </div>
               <button
-                class="bg-[#FB2E86] text-white py-[14px] px-[24px] mt-[37px]"
+                class="bg-[#FB2E86] text-white py-[14px] px-[24px] mt-[37px] mx-auto flex justify-center sm:block sm:mx-0"
               >
                 Shop Now
               </button>
@@ -679,8 +679,8 @@ import body from "./components/body.vue";
   <!-- latest blog  -->
   <section class="py-5 mx-auto">
     <div class="">
-      <div class="mb-[80px]">
-        <p class="text-center text-[42px]">Latest Blog</p>
+      <div class="mb-[30px] sm:mb-[80px]">
+        <p class="text-center text-[28px] sm:text-[42px]">Latest Blog</p>
       </div>
       <div
         class="
@@ -690,6 +690,7 @@ import body from "./components/body.vue";
           gap-10
           md:max-w-[70vw]
           mx-auto
+          px-[25px]
         "
       >
         <div
@@ -795,7 +796,14 @@ import body from "./components/body.vue";
     </div>
   </section>
   <footer class="mt-[115px] bg-[#EEEFFB] text-[#8A8FB9]">
-    <div class="flex justify-around container mx-auto pt-[94px] px-[100px] pb-[100px]">
+    <!-- <div class="sm:flex justify-around container mx-auto pt-[94px] px-[100px] pb-[100px]"> -->
+    <div class=" grid grid-cols-2
+          md:grid-cols-2
+          lg:grid-cols-4
+          gap-10
+          md:max-w-[70vw]
+          mx-auto py-[94px]
+          px-[30px] sm:px-[0px]">
       <div>
         <div class="mb-[31px]"><img src="./assets/img/Hekto.png" alt=""></div>
         <div class="hidden md:flex">
@@ -809,7 +817,7 @@ import body from "./components/body.vue";
       </div>
       <div>
         <ul class="space-y-[21px]">
-          <h2 class="font-bold text-[22px] text-black">Catagories</h2>
+          <h2 class="font-bold text-[18px] sm:text-[22px] text-black">Catagories</h2>
           <li>Laptops & Computers</li>
           <li>Cameras & Photography</li>
           <li>Smart Phones & Tablets</li>
@@ -819,7 +827,7 @@ import body from "./components/body.vue";
       </div>
       <div>
         <ul class="space-y-[21px]">
-          <h2 class="font-bold text-[22px] text-black">Customer Care</h2>
+          <h2 class="font-bold text-[18px] sm:text-[22px] text-black">Customer Care</h2>
           <li>My Account</li>
           <li>Discount</li>
           <li>Orders History</li>
@@ -828,7 +836,7 @@ import body from "./components/body.vue";
       </div>
       <div>
         <ul class="space-y-[21px]">
-          <h2 class="font-bold text-[22px] text-black">Pages</h2>
+          <h2 class="font-bold text-[18px] sm:text-[22px] text-black">Pages</h2>
           <li>Blog</li>
           <li>Browse the Shop</li>
           <li>Category</li>
@@ -839,7 +847,7 @@ import body from "./components/body.vue";
       </div>
     </div>
     <div class="bg-[#E7E4F8] py-[17px]">
-      <div class="flex justify-around container mx-auto">
+      <div class="flex sm:justify-around container px-[30px] justify-between mx-auto">
       <div>©Webecy - All Rights Reserved</div>
       <div class="flex space-x-2">
         <img src="./assets/img/Group 202.svg" alt="">

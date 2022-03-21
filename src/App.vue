@@ -113,11 +113,11 @@
   </section>
 
   <!-- Ecommerce Acceories & Fashion item  -->
-  <section>
+  <section class="pt-[126px]">
    <div class="flex justify-around container mx-auto">
-     <div>
-       <p>Ecommerce Acceories & Fashion item </p>
-       <p>About 9,620 results (0.62 seconds)</p>
+     <div class="">
+       <p class="text-[#151875] text-[22px]">Ecommerce Acceories & Fashion item </p>
+       <p class="text-[#8A8FB9]">About 9,620 results (0.62 seconds)</p>
      </div>
      <div class="flex items-center">
        <div class="flex">
@@ -125,14 +125,13 @@
          <input class="border" type="text">
        </div>
        <div class="flex">
-         <p>Per Page:</p>
-         <form action="/action_page.php">
-          <label for="cars">Choose a car:</label>
-          <select id="cars" name="cars">
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="fiat">Fiat</option>
-            <option value="audi">Audi</option>
+         <form action="">
+          <label for="">Sort by: </label>
+          <select class="border" id="" name="">
+            <option value="volvo">Best match</option>
+            <option value="saab">Lowest</option>
+            <option value="fiat">Popularity</option>
+            <option value="audi">Highest</option>
           </select> 
           </form>
        </div>
@@ -143,17 +142,218 @@
      </div>
    </div>
 
-   <div class="flex">
+   <!-- side bar and products   -->
+   <div class="flex container mx-auto space-x-[62px] mt-[100px]">
+     <!-- side bar -->
      <div>
-       <div>
-          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-          <label for="vehicle1"> I have a bike</label>
-       </div>
-     </div>
-     <div></div>
+       <div class="space-y-2">
+         <p class="text-[20px]">Product Brand</p>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Coaster Furniture</label>
+         </div>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Fusion Dot High Fashion</label>
+         </div>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Unique Furnitture Restor</label>
+         </div>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Dream Furnitture Flipping</label>
+         </div>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Young Repurposed</label>
+         </div>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Green DIY furniture</label>
+         </div>
+      </div>  
+       <div class="space-y-2">
+         <p class="text-[20px]">Product Brand</p>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Coaster Furniture</label>
+         </div>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Fusion Dot High Fashion</label>
+         </div>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Unique Furnitture Restor</label>
+         </div>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Dream Furnitture Flipping</label>
+         </div>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Young Repurposed</label>
+         </div>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Green DIY furniture</label>
+         </div>
+      </div>  
+       <div class="space-y-2">
+         <p class="text-[20px]">Product Brand</p>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Coaster Furniture</label>
+         </div>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Fusion Dot High Fashion</label>
+         </div>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Unique Furnitture Restor</label>
+         </div>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Dream Furnitture Flipping</label>
+         </div>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Young Repurposed</label>
+         </div>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Green DIY furniture</label>
+         </div>
+      </div>  
+       <div class="space-y-2">
+         <p class="text-[20px]">Product Brand</p>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Coaster Furniture</label>
+         </div>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Fusion Dot High Fashion</label>
+         </div>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Unique Furnitture Restor</label>
+         </div>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Dream Furnitture Flipping</label>
+         </div>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Young Repurposed</label>
+         </div>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Green DIY furniture</label>
+         </div>
+      </div>  
+       <div class="space-y-2">
+         <p class="text-[20px]">Product Brand</p>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Coaster Furniture</label>
+         </div>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Fusion Dot High Fashion</label>
+         </div>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Unique Furnitture Restor</label>
+         </div>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Dream Furnitture Flipping</label>
+         </div>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Young Repurposed</label>
+         </div>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Green DIY furniture</label>
+         </div>
+      </div>  
+       <div class="space-y-2">
+         <p class="text-[20px]">Product Brand</p>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Coaster Furniture</label>
+         </div>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Fusion Dot High Fashion</label>
+         </div>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Unique Furnitture Restor</label>
+         </div>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Dream Furnitture Flipping</label>
+         </div>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Young Repurposed</label>
+         </div>
+         <div>
+          <input type="checkbox" id="" name="" value="">
+          <label class="pl-2" for="">Green DIY furniture</label>
+         </div>
+      </div>  
+     <!-- image by the side -->
+    </div>
+    <div>
+      <div class="flex space-x-[29px] shadow-[0px_0px_25px_rgba(0,_0,_0,_0.1)]
+              basis-1
+              md:basis-1/2
+              lg:basis-1/4
+              w-2/3"
+            >
+        <img class="object-scale-down pl-[18px]" src="./assets/img/Rectangle 32.png" alt="">
+        <div class="py-[46px]">
+          <div class="flex space-x-[67px]">
+            <p class="text-[18px] text-[#111C85] pb-[13px]">Dictum morbi</p>
+            <div class="flex pb-[10px] space-x-1">
+              <img class="w-3" src="./assets/img/Ellipse 24.svg" alt="">
+              <img class="w-3" src="./assets/img/Ellipse 25.svg" alt="">
+              <img class="w-3" src="./assets/img/Ellipse 26.svg" alt="">
+            </div>
+          </div>
+          <div class="flex space-x-2">
+            <p>$26.00</p>
+            <p class="text-[#FB2E86] line-through">$52.00</p>
+            <div class="flex items-center">
+              <img src="./assets/img/fille_star.svg" alt="">
+              <img src="./assets/img/fille_star.svg" alt="">
+              <img src="./assets/img/fille_star.svg" alt="">
+              <img src="./assets/img/fille_star.svg" alt="">
+              <img src="./assets/img/empty_star.svg" alt="">
+            </div>
+          </div>
+          <p class="text-[#9295AA] text-[16px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum blanditiis quae obcaecati cupiditate nostrum corporis dolores perferendis?</p>
+          <div class="flex space-x-2 pt-[15px] items-center">
+            <img class="w-[16px]" src="./assets/img/fluent_cart-24-regular.svg" alt="">
+            <img src="./assets/img/uil_heart-alt.svg" alt="">
+            <img src="./assets/img/uil_search-plus.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
    </div>
-
   </section>
+
+
+
+
+
 
   <footer class="mt-[115px] bg-[#EEEFFB] text-[#8A8FB9]">
     <!-- <div class="sm:flex justify-around container mx-auto pt-[94px] px-[100px] pb-[100px]"> -->

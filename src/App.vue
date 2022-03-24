@@ -345,8 +345,6 @@
       </div>
       <div class="px-[30px] -mt-[70px] sm:px-[0px] space-y-[40px] sm:space-y-[28px]">
         <div
-        v-for="i in 10"
-        :key="`product-${i}`"
           class="sm:flex space-x-[29px] shadow-[0px_0px_25px_rgba(0,_0,_0,_0.1)] basis-1 w-full"
         >
           <img
@@ -356,7 +354,271 @@
           />
           <div class="py-[46px]">
             <div class="sm:flex sm:space-x-[67px]">
-              <p class="text-[18px] text-[#111C85] pb-[13px]">Dictum morbi updatte</p>
+              <p class="text-[18px] text-[#111C85] pb-[13px]">Dictum morbi</p>
+              <div class="flex pb-[10px] space-x-1">
+                <img class="w-3" src="./assets/img/Ellipse 24.svg" alt="" />
+                <img class="w-3" src="./assets/img/Ellipse 25.svg" alt="" />
+                <img class="w-3" src="./assets/img/Ellipse 26.svg" alt="" />
+              </div>
+            </div>
+            <div class="flex space-x-2">
+              <p>$26.00</p>
+              <p class="text-[#FB2E86] line-through">$52.00</p>
+              <div class="flex items-center">
+                <img src="./assets/img/fille_star.svg" alt="" />
+                <img src="./assets/img/fille_star.svg" alt="" />
+                <img src="./assets/img/fille_star.svg" alt="" />
+                <img src="./assets/img/fille_star.svg" alt="" />
+                <img src="./assets/img/empty_star.svg" alt="" />
+              </div>
+            </div>
+            <p class="text-[#9295AA] text-[16px]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+              blanditiis quae obcaecati cupiditate nostrum corporis dolores
+              perferendis?
+            </p>
+            <div class="flex space-x-2 pt-[15px] items-center">
+              <img
+                class="w-[16px]"
+                src="./assets/img/fluent_cart-24-regular.svg"
+                alt=""
+              />
+              <img src="./assets/img/uil_heart-alt.svg" alt="" />
+              <img src="./assets/img/uil_search-plus.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="sm:flex space-x-[29px] shadow-[0px_0px_25px_rgba(0,_0,_0,_0.1)] basis-1 w-full"
+        >
+          <img
+            class="object-scale-down pl-[18px] pt-[15px]"
+            src="./assets/img/item_2.png"
+            alt=""
+          />
+          <div class="py-[46px]">
+            <div class="sm:flex sm:space-x-[67px]">
+              <p class="text-[18px] text-[#111C85] pb-[13px]">Sodales sit</p>
+              <div class="flex pb-[10px] space-x-1">
+                <img class="w-3" src="./assets/img/Ellipse 24.svg" alt="" />
+                <img class="w-3" src="./assets/img/Ellipse 25.svg" alt="" />
+                <img class="w-3" src="./assets/img/Ellipse 26.svg" alt="" />
+              </div>
+            </div>
+            <div class="flex space-x-2">
+              <p>$26.00</p>
+              <p class="text-[#FB2E86] line-through">$52.00</p>
+              <div class="flex items-center">
+                <img src="./assets/img/fille_star.svg" alt="" />
+                <img src="./assets/img/fille_star.svg" alt="" />
+                <img src="./assets/img/fille_star.svg" alt="" />
+                <img src="./assets/img/fille_star.svg" alt="" />
+                <img src="./assets/img/empty_star.svg" alt="" />
+              </div>
+            </div>
+            <p class="text-[#9295AA] text-[16px]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+              blanditiis quae obcaecati cupiditate nostrum corporis dolores
+              perferendis?
+            </p>
+            <div class="flex space-x-2 pt-[15px] items-center">
+              <img
+                class="w-[16px]"
+                src="./assets/img/fluent_cart-24-regular.svg"
+                alt=""
+              />
+              <img src="./assets/img/uil_heart-alt.svg" alt="" />
+              <img src="./assets/img/uil_search-plus.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="sm:flex space-x-[29px] shadow-[0px_0px_25px_rgba(0,_0,_0,_0.1)] basis-1 w-full"
+        >
+          <img
+            class="object-scale-down pl-[18px] pt-[15px]"
+            src="./assets/img/item_3.png"
+            alt=""
+          />
+          <div class="py-[46px]">
+            <div class="sm:flex sm:space-x-[67px]">
+              <p class="text-[18px] text-[#111C85] pb-[13px]">Nibh varius</p>
+              <div class="flex pb-[10px] space-x-1">
+                <img class="w-3" src="./assets/img/Ellipse 24.svg" alt="" />
+                <img class="w-3" src="./assets/img/Ellipse 25.svg" alt="" />
+                <img class="w-3" src="./assets/img/Ellipse 26.svg" alt="" />
+              </div>
+            </div>
+            <div class="flex space-x-2">
+              <p>$26.00</p>
+              <p class="text-[#FB2E86] line-through">$52.00</p>
+              <div class="flex items-center">
+                <img src="./assets/img/fille_star.svg" alt="" />
+                <img src="./assets/img/fille_star.svg" alt="" />
+                <img src="./assets/img/fille_star.svg" alt="" />
+                <img src="./assets/img/fille_star.svg" alt="" />
+                <img src="./assets/img/empty_star.svg" alt="" />
+              </div>
+            </div>
+            <p class="text-[#9295AA] text-[16px]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+              blanditiis quae obcaecati cupiditate nostrum corporis dolores
+              perferendis?
+            </p>
+            <div class="flex space-x-2 pt-[15px] items-center">
+              <img
+                class="w-[16px]"
+                src="./assets/img/fluent_cart-24-regular.svg"
+                alt=""
+              />
+              <img src="./assets/img/uil_heart-alt.svg" alt="" />
+              <img src="./assets/img/uil_search-plus.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="sm:flex space-x-[29px] shadow-[0px_0px_25px_rgba(0,_0,_0,_0.1)] basis-1 w-full"
+        >
+          <img
+            class="object-scale-down pl-[18px] pt-[15px]"
+            src="./assets/img/item_4.png"
+            alt=""
+          />
+          <div class="py-[46px]">
+            <div class="sm:flex sm:space-x-[67px]">
+              <p class="text-[18px] text-[#111C85] pb-[13px]">Mauris quis</p>
+              <div class="flex pb-[10px] space-x-1">
+                <img class="w-3" src="./assets/img/Ellipse 24.svg" alt="" />
+                <img class="w-3" src="./assets/img/Ellipse 25.svg" alt="" />
+                <img class="w-3" src="./assets/img/Ellipse 26.svg" alt="" />
+              </div>
+            </div>
+            <div class="flex space-x-2">
+              <p>$26.00</p>
+              <p class="text-[#FB2E86] line-through">$52.00</p>
+              <div class="flex items-center">
+                <img src="./assets/img/fille_star.svg" alt="" />
+                <img src="./assets/img/fille_star.svg" alt="" />
+                <img src="./assets/img/fille_star.svg" alt="" />
+                <img src="./assets/img/fille_star.svg" alt="" />
+                <img src="./assets/img/empty_star.svg" alt="" />
+              </div>
+            </div>
+            <p class="text-[#9295AA] text-[16px]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+              blanditiis quae obcaecati cupiditate nostrum corporis dolores
+              perferendis?
+            </p>
+            <div class="flex space-x-2 pt-[15px] items-center">
+              <img
+                class="w-[16px]"
+                src="./assets/img/fluent_cart-24-regular.svg"
+                alt=""
+              />
+              <img src="./assets/img/uil_heart-alt.svg" alt="" />
+              <img src="./assets/img/uil_search-plus.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="sm:flex space-x-[29px] shadow-[0px_0px_25px_rgba(0,_0,_0,_0.1)] basis-1 w-full"
+        >
+          <img
+            class="object-scale-down pl-[18px] pt-[15px]"
+            src="./assets/img/item_5.png"
+            alt=""
+          />
+          <div class="py-[46px]">
+            <div class="sm:flex sm:space-x-[67px]">
+              <p class="text-[18px] text-[#111C85] pb-[13px]">Morbi sagittis</p>
+              <div class="flex pb-[10px] space-x-1">
+                <img class="w-3" src="./assets/img/Ellipse 24.svg" alt="" />
+                <img class="w-3" src="./assets/img/Ellipse 25.svg" alt="" />
+                <img class="w-3" src="./assets/img/Ellipse 26.svg" alt="" />
+              </div>
+            </div>
+            <div class="flex space-x-2">
+              <p>$26.00</p>
+              <p class="text-[#FB2E86] line-through">$52.00</p>
+              <div class="flex items-center">
+                <img src="./assets/img/fille_star.svg" alt="" />
+                <img src="./assets/img/fille_star.svg" alt="" />
+                <img src="./assets/img/fille_star.svg" alt="" />
+                <img src="./assets/img/fille_star.svg" alt="" />
+                <img src="./assets/img/empty_star.svg" alt="" />
+              </div>
+            </div>
+            <p class="text-[#9295AA] text-[16px]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+              blanditiis quae obcaecati cupiditate nostrum corporis dolores
+              perferendis?
+            </p>
+            <div class="flex space-x-2 pt-[15px] items-center">
+              <img
+                class="w-[16px]"
+                src="./assets/img/fluent_cart-24-regular.svg"
+                alt=""
+              />
+              <img src="./assets/img/uil_heart-alt.svg" alt="" />
+              <img src="./assets/img/uil_search-plus.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="sm:flex space-x-[29px] shadow-[0px_0px_25px_rgba(0,_0,_0,_0.1)] basis-1 w-full"
+        >
+          <img
+            class="object-scale-down pl-[18px] pt-[15px]"
+            src="./assets/img/item_6.png"
+            alt=""
+          />
+          <div class="py-[46px]">
+            <div class="sm:flex sm:space-x-[67px]">
+              <p class="text-[18px] text-[#111C85] pb-[13px]">Ultricies venenatis</p>
+              <div class="flex pb-[10px] space-x-1">
+                <img class="w-3" src="./assets/img/Ellipse 24.svg" alt="" />
+                <img class="w-3" src="./assets/img/Ellipse 25.svg" alt="" />
+                <img class="w-3" src="./assets/img/Ellipse 26.svg" alt="" />
+              </div>
+            </div>
+            <div class="flex space-x-2">
+              <p>$26.00</p>
+              <p class="text-[#FB2E86] line-through">$52.00</p>
+              <div class="flex items-center">
+                <img src="./assets/img/fille_star.svg" alt="" />
+                <img src="./assets/img/fille_star.svg" alt="" />
+                <img src="./assets/img/fille_star.svg" alt="" />
+                <img src="./assets/img/fille_star.svg" alt="" />
+                <img src="./assets/img/empty_star.svg" alt="" />
+              </div>
+            </div>
+            <p class="text-[#9295AA] text-[16px]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+              blanditiis quae obcaecati cupiditate nostrum corporis dolores
+              perferendis?
+            </p>
+            <div class="flex space-x-2 pt-[15px] items-center">
+              <img
+                class="w-[16px]"
+                src="./assets/img/fluent_cart-24-regular.svg"
+                alt=""
+              />
+              <img src="./assets/img/uil_heart-alt.svg" alt="" />
+              <img src="./assets/img/uil_search-plus.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="sm:flex space-x-[29px] shadow-[0px_0px_25px_rgba(0,_0,_0,_0.1)] basis-1 w-full"
+        >
+          <img
+            class="object-scale-down pl-[18px] pt-[15px]"
+            src="./assets/img/item_7.png"
+            alt=""
+          />
+          <div class="py-[46px]">
+            <div class="sm:flex sm:space-x-[67px]">
+              <p class="text-[18px] text-[#111C85] pb-[13px]">Dictum morbi</p>
               <div class="flex pb-[10px] space-x-1">
                 <img class="w-3" src="./assets/img/Ellipse 24.svg" alt="" />
                 <img class="w-3" src="./assets/img/Ellipse 25.svg" alt="" />
@@ -399,14 +661,6 @@
       <img class="text-center" src="./assets/img/image 1174.png" alt="">
     </div>
   </section>
-
-
-
-
-
-
-
-
 
   <footer class="mt-[50px] sm:mt-[115px] bg-[#EEEFFB] text-[#8A8FB9]">
     <!-- <div class="sm:flex justify-around container mx-auto pt-[94px] px-[100px] pb-[100px]"> -->

@@ -113,23 +113,25 @@
   </section>
 
   <!-- Ecommerce Acceories & Fashion item  -->
-  <section class="pt-[126px]">
-    <div class="flex justify-between container mx-auto">
+  <section class="pt-[30px] sm:pt-[126px]">
+    <div class="sm:flex sm:justify-between container mx-auto">
       <div class="">
-        <p class="text-[#151875] text-[22px]">
-          Ecommerce Acceories & Fashion item
+        <p class="text-[#151875] sm:text-[22px] text-[19px] px-5">
+          Ecommerce Accesories & Fashion item
         </p>
-        <p class="text-[#8A8FB9]">About 9,620 results (0.62 seconds)</p>
+        <p class="text-[#8A8FB9] px-5">About 9,620 results (0.62 seconds)</p>
       </div>
-      <div class="flex items-center">
-        <div class="flex">
-          <p>Per Page:</p>
-          <input class="border" type="text" />
-        </div>
-        <div class="flex">
+      <div class="sm:flex sm:space-x-[25px] items-center text-[#3F509E]">
+        <div class="sm:flex hidden space-x-[8px]">
           <form action="">
-            <label for="">Sort by: </label>
-            <select class="border" id="" name="">
+            <label class="pr-[8px]">Per Page:</label>
+            <input class="border w-[55px]" type="text" />
+          </form>
+        </div>
+        <div class="flex px-5 sm:px-[0px]">
+          <form action="" class="">
+            <label for="" class="pr-[8px]">Sort by: </label>
+            <select class="border text-[#E7E6EF] py-[5px] px-[11px]" id="" name="">
               <option value="volvo">Best match</option>
               <option value="saab">Lowest</option>
               <option value="fiat">Popularity</option>
@@ -137,19 +139,23 @@
             </select>
           </form>
         </div>
-        <div class="flex">
-          <p>Per Page:</p>
-          <input class="border" type="text" />
+        <div class="">
+          <form action="" class="sm:flex hidden space-x-[4px]">
+            <label>View:</label>
+            <img class="" src="./assets/img/clarity_grid-view-solid.svg" alt="">
+            <img class="pr-[20px]"  src="./assets/img/list-view.svg" alt="">
+            <input class="border w-[162px]" type="text" />
+          </form>
         </div>
       </div>
     </div>
 
     <!-- side bar and products   -->
-    <div class="flex container mx-auto space-x-[62px] mt-[100px] justify-between">
+    <div class="flex container mx-auto sm:space-x-[62px] mt-[100px] justify-between">
       <!-- side bar -->
-      <div class="hidden sm:block text-[#7E81A2]">
+      <div class="hidden sm:block text-[#7E81A2] space-y-[44px]">
         <div class="space-y-2">
-          <p class="text-[20px] underline decoration-1 underline-offset-4 text-[#151875]">Product Brand</p>
+          <p class="text-[20px] underline decoration-1 underline-offset-4 text-[#151875] pb-[11px]">Product Brand</p>
           <div class="">
             <input type="checkbox" id="" name="" value="" />
             <label class="pl-2" for="">Coaster Furniture</label>
@@ -176,7 +182,7 @@
           </div>
         </div>
         <div class="space-y-2">
-          <p class="text-[20px] text-[#151875] underline decoration-1 underline-offset-4">Discount Offer</p>
+          <p class="text-[20px] text-[#151875] underline decoration-1 underline-offset-4 pb-[11px]">Discount Offer</p>
           <div>
             <input type="checkbox" id="" name="" value="" />
             <label class="pl-2" for="">20% Cashback</label>
@@ -191,7 +197,7 @@
           </div>
         </div>
         <div class="space-y-2">
-          <p class="text-[20px] text-[#151875] underline decoration-1 underline-offset-4">Rating Item</p>
+          <p class="text-[20px] text-[#151875] underline decoration-1 underline-offset-4 pb-[11px]">Rating Item</p>
           <div class="flex items-center">
             <input class="" type="checkbox">
            <div class="flex items-center">
@@ -239,7 +245,7 @@
           
         </div>
         <div class="space-y-2 ">
-          <p class="text-[20px] text-[#151875] underline decoration-1 underline-offset-4">Categories</p>
+          <p class="text-[20px] text-[#151875] underline decoration-1 underline-offset-4 pb-[11px]">Categories</p>
           <div>
             <input type="checkbox" id="" name="" value="" />
             <label class="pl-2" for="">Prestashop</label>
@@ -278,7 +284,7 @@
           </div>
         </div>
         <div class="space-y-2">
-          <p class="text-[20px] text-[#151875] underline decoration-1 underline-offset-4">Price Filter</p>
+          <p class="text-[20px] text-[#151875] underline decoration-1 underline-offset-4 pb-[11px]">Price Filter</p>
           <div>
             <input type="checkbox" id="" name="" value="" />
             <label class="pl-2" for="">$0.00 - $150.00</label>
@@ -292,7 +298,7 @@
             <label class="pl-2" for="">$150.00 - $504.00</label>
           </div>
           <div>
-            <input type="checkbox" id="" name="" value="" />
+            <input type="checkbox" class="text-[#FF3EB2] border-0 rounded-md focus:ring-0" id="" name="" value="" checked />
             <label class="pl-2" for="">$450.00 +</label>
           </div>
           <div>
@@ -306,48 +312,50 @@
             </div>
           </div>
         </div>
-        <div class="space-y-2">
-          <p class="text-[20px] text-[#151875] underline decoration-1 underline-offset-4">Product Brand</p>
-          <div>
-            <input type="checkbox" id="" name="" value="" />
-            <label class="pl-2" for="">Coaster Furniture</label>
-          </div>
-          <div>
-            <input type="checkbox" id="" name="" value="" />
-            <label class="pl-2" for="">Fusion Dot High Fashion</label>
-          </div>
-          <div>
-            <input type="checkbox" id="" name="" value="" />
-            <label class="pl-2" for="">Unique Furnitture Restor</label>
-          </div>
-          <div>
-            <input type="checkbox" id="" name="" value="" />
-            <label class="pl-2" for="">Dream Furnitture Flipping</label>
-          </div>
-          <div>
-            <input type="checkbox" id="" name="" value="" />
-            <label class="pl-2" for="">Young Repurposed</label>
-          </div>
-          <div>
-            <input type="checkbox" id="" name="" value="" />
-            <label class="pl-2" for="">Green DIY furniture</label>
+        <div class="space-y-2 text-[15px]">
+          <p class="text-[20px] text-[#151875] underline decoration-1 underline-offset-4 pb-[11px]">Filter By Color</p>
+          <div class="grid grid-cols-3 gap-x-2">
+            <div class="flex space-x-[2px]">
+              <img src="./assets/img/Ellipse 71.svg" alt="">
+              <p>Blue</p>
+            </div>
+            <div class="flex space-x-[2px]">
+              <img src="./assets/img/Ellipse 72.svg" alt="">
+              <p>Orange</p>
+            </div>
+            <div class="flex space-x-[2px]">
+              <img src="./assets/img/Ellipse 73.svg" alt="">
+              <p>Brown</p>
+            </div>
+            <div class="flex space-x-[2px]">
+              <img src="./assets/img/Ellipse 76.svg" alt="">
+              <p>Green</p>
+            </div>
+            <div class="flex space-x-[2px]">
+              <img src="./assets/img/Ellipse 75.svg" alt="">
+              <p>Purple</p>
+            </div>
+            <div class="flex space-x-[2px]">
+              <img src="./assets/img/Ellipse 74.svg" alt="">
+              <p>Sky</p>
+            </div>
           </div>
         </div>
         <!-- image by the side -->
       </div>
-      <div class="space-y-[28px] hidden">
+      <div class="px-[30px] sm:px-[0px] space-y-[40px] sm:space-y-[28px]">
         <div
         v-for="i in 10"
         :key="`product-${i}`"
-          class="flex space-x-[29px] shadow-[0px_0px_25px_rgba(0,_0,_0,_0.1)] basis-1 w-full"
+          class="sm:flex space-x-[29px] shadow-[0px_0px_25px_rgba(0,_0,_0,_0.1)] basis-1 w-full"
         >
           <img
-            class="object-scale-down pl-[18px]"
+            class="object-scale-down pl-[18px] pt-[15px]"
             src="./assets/img/Rectangle 32.png"
             alt=""
           />
           <div class="py-[46px]">
-            <div class="flex space-x-[67px]">
+            <div class="sm:flex sm:space-x-[67px]">
               <p class="text-[18px] text-[#111C85] pb-[13px]">Dictum morbi updatte</p>
               <div class="flex pb-[10px] space-x-1">
                 <img class="w-3" src="./assets/img/Ellipse 24.svg" alt="" />
@@ -385,6 +393,20 @@
       </div>
     </div>
   </section>
+
+  <section class="pt-[251px]">
+    <div class="flex justify-center container mx-auto">
+      <img class="text-center" src="./assets/img/image 1174.png" alt="">
+    </div>
+  </section>
+
+
+
+
+
+
+
+
 
   <footer class="mt-[115px] bg-[#EEEFFB] text-[#8A8FB9]">
     <!-- <div class="sm:flex justify-around container mx-auto pt-[94px] px-[100px] pb-[100px]"> -->

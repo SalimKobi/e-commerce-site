@@ -119,7 +119,7 @@
         <p class="text-[#151875] sm:text-[22px] text-[19px] px-5">
           Ecommerce Accesories & Fashion item
         </p>
-        <p class="text-[#8A8FB9] px-5">About 9,620 results (0.62 seconds)</p>
+        <p class="text-[#8A8FB9] px-5 pb-2 sm:pb-[0]">About 9,620 results (0.62 seconds)</p>
       </div>
       <div class="sm:flex sm:space-x-[25px] items-center text-[#3F509E]">
         <div class="sm:flex hidden space-x-[8px]">
@@ -131,7 +131,7 @@
         <div class="flex px-5 sm:px-[0px]">
           <form action="" class="">
             <label for="" class="pr-[8px]">Sort by: </label>
-            <select class="border text-[#E7E6EF] py-[5px] px-[11px]" id="" name="">
+            <select class="border text-[#E7E6EF] py-[2px] px-[4px] sm:py-[5px] sm:px-[11px]" id="" name="">
               <option value="volvo">Best match</option>
               <option value="saab">Lowest</option>
               <option value="fiat">Popularity</option>
@@ -198,9 +198,9 @@
         </div>
         <div class="space-y-2">
           <p class="text-[20px] text-[#151875] underline decoration-1 underline-offset-4 pb-[11px]">Rating Item</p>
-          <div class="flex items-center">
+          <div class="flex space-x-2 items-center">
             <input class="" type="checkbox">
-           <div class="flex items-center">
+           <div class="flex space-x-[3px] items-center">
              <img src="./assets/img/fille_star.svg" alt="">
              <img src="./assets/img/fille_star.svg" alt="">
              <img src="./assets/img/fille_star.svg" alt="">
@@ -209,9 +209,9 @@
            </div>
            <p>(2341)</p>
           </div>
-          <div class="flex items-center">
+          <div class="flex space-x-2 items-center">
             <input class="" type="checkbox">
-           <div class="flex items-center">
+           <div class="flex space-x-[3px] items-center">
              <img src="./assets/img/fille_star.svg" alt="">
              <img src="./assets/img/fille_star.svg" alt="">
              <img src="./assets/img/fille_star.svg" alt="">
@@ -220,9 +220,9 @@
            </div>
            <p>(1726)</p>
           </div>
-          <div class="flex items-center">
+          <div class="flex space-x-2 items-center">
             <input class="" type="checkbox">
-           <div class="flex items-center">
+           <div class="flex space-x-[3px] items-center">
              <img src="./assets/img/fille_star.svg" alt="">
              <img src="./assets/img/fille_star.svg" alt="">
              <img src="./assets/img/empty_star.svg" alt="">
@@ -231,9 +231,9 @@
            </div>
            <p>(258)</p>
           </div>
-          <div class="flex items-center">
+          <div class="flex space-x-2 items-center">
             <input class="" type="checkbox">
-           <div class="flex items-center">
+           <div class="flex space-x-[3px] items-center">
              <img src="./assets/img/fille_star.svg" alt="">
              <img src="./assets/img/fille_star.svg" alt="">
              <img src="./assets/img/empty_star.svg" alt="">
@@ -298,7 +298,7 @@
             <label class="pl-2" for="">$150.00 - $504.00</label>
           </div>
           <div>
-            <input type="checkbox" class="text-[#FF3EB2] border-0 rounded-md focus:ring-0" id="" name="" value="" checked />
+            <input type="checkbox" class="text-[#FF3EB2] border-0 rounded-md focus:ring-0" id="" name="" value="" />
             <label class="pl-2" for="">$450.00 +</label>
           </div>
           <div>
@@ -343,7 +343,7 @@
         </div>
         <!-- image by the side -->
       </div>
-      <div class="px-[30px] sm:px-[0px] space-y-[40px] sm:space-y-[28px]">
+      <div class="px-[30px] -mt-[70px] sm:px-[0px] space-y-[40px] sm:space-y-[28px]">
         <div
         v-for="i in 10"
         :key="`product-${i}`"
@@ -394,7 +394,7 @@
     </div>
   </section>
 
-  <section class="pt-[251px]">
+  <section class="mt-[50px] sm:pt-[251px]">
     <div class="flex justify-center container mx-auto">
       <img class="text-center" src="./assets/img/image 1174.png" alt="">
     </div>
@@ -408,7 +408,7 @@
 
 
 
-  <footer class="mt-[115px] bg-[#EEEFFB] text-[#8A8FB9]">
+  <footer class="mt-[50px] sm:mt-[115px] bg-[#EEEFFB] text-[#8A8FB9]">
     <!-- <div class="sm:flex justify-around container mx-auto pt-[94px] px-[100px] pb-[100px]"> -->
     <div
       class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-10 md:max-w-[70vw] py-[94px] px-[30px] sm:px-[0px] container mx-auto"

@@ -9,8 +9,9 @@
         md:grid-cols-2
         lg:grid-cols-4
         gap-10
-        md:max-w-[70vw]
+        container
         mx-auto
+        px-[30px]
       "
     >
       <WhatWeOfferCards />

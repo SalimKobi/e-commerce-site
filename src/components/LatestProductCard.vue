@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <div>
+    <div class="">
       <div class="flex bg-gray-100">
         <img
           class="h-[19rem] w-full object-scale-down object-center"

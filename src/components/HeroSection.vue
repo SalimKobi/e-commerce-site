@@ -1,6 +1,6 @@
 <template>
   <section class="bg-[#F2F0FF]">
-    <div class="px-[20px] sm:container sm:mx-auto">
+    <div class="sm:px-[20px] sm:container sm:mx-auto">
       <div class="sm:flex sm:justify-around">
         <div class="hidden sm:block">
           <img class="" src="../assets/img/image_32.png" alt="" />

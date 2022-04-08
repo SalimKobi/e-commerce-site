@@ -7,15 +7,18 @@
         md:grid-cols-2
         lg:grid-cols-4
         gap-10
-        md:max-w-[70vw]
-        mx-auto
+        2xl:max-w-[50vw]
+        md:max-w-[85vw]
         py-[94px]
-        px-[30px]
         sm:px-[0px]
+        contianer
+        mx-auto
       "
     >
       <div>
-        <div class="mb-[31px]"><img src="../assets/img/Hekto.png" alt="" /></div>
+        <div class="mb-[31px]">
+          <img src="../assets/img/Hekto.png" alt="" />
+        </div>
         <div class="hidden md:flex">
           <input
             class="border-3xl w-[auto] p-2 border focus:ring-1 rounded"

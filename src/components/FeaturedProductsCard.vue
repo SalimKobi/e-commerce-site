@@ -9,7 +9,7 @@
   >
     <div class="bg-[#F6F7FB]">
       <img
-        class="h-[240px] w-full object-scale-down object-center"
+        class="h-[240px] w-full object-scale-down object-center max-w-[ 270px]"
         src="../assets/img/image_1.png"
         alt=""
       />

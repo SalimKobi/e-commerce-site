@@ -15,14 +15,7 @@
       </div>
       <div class="container mx-auto my-10">
         <div
-          class="
-            grid grid-cols-1
-            md:grid-cols-2
-            lg:grid-cols-4
-            gap-10
-            md:max-w-[70vw]
-            mx-auto
-          "
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mx-auto"
         >
           <FeaturedProductsCard />
           <FeaturedProductsCard />
@@ -39,8 +32,7 @@
     </div>
   </section>
 
-
-<!-- cards on hover -->
+  <!-- cards on hover -->
   <!-- <div
     class="
       shadow-[0px_0px_25px_rgba(0,_0,_0,_0.1)]
